@@ -3,7 +3,6 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import SimpleComponent from '../components/simple'
 import * as Actions from '../actions'
-require('../css/style.css');
 
 class App extends Component {
     render() {
